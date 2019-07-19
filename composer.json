@@ -29,6 +29,9 @@
         "squizlabs/php_codesniffer": "^2.7.0",
         "couscous/couscous": "^1.6"
     },
+    "replace": {
+        "thecodingmachine/discovery":"1.*"
+    },
     "autoload": {
         "psr-4": {
             "TheCodingMachine\\Discovery\\": "src/"
